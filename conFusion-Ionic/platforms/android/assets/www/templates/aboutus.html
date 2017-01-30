@@ -1,0 +1,24 @@
+<ion-view view-title="About Us">
+  <ion-content>
+        <div class="card">
+            <div class="item item-divider">
+                <h2>Our History</h2>
+            </div>
+            <div class="item item-text-wrap">
+                <p>Started in 2016, Portofic was created as a way to display my own work to potential employers.  I realized there was no easy clean way to do this, besides creating my own web site.</p>
+                <p>Inspired by the simplest of designs, I created Portfolic</p>
+            </div>
+      </div>
+      <ul class="list list-inset">
+        <li class="item item-divider">
+            <h2>Corporate Leadership</h2>
+        </li>
+        <li class="item item-avatar item-text-wrap" ng-repeat="leader in leaders">
+            <img ng-src="{{baseURL + leader.image}}" alt="Peter Pan">
+            <h3>{{leader.name}}<h3>
+            <h4>{{leader.designation}}</h4>
+            <p>{{leader.description}}</p>
+        </li>
+    </ul>
+  </ion-content>
+</ion-view>

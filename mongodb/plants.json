@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Basil",
+      "image": "images/basil.png",
+      "category": "spices",
+      "label": "Hot",
+      "price": "10.00",
+      "description": "Basil grows quickly and fresh basil can be added to almost any salad, stir fry, or casserole.  The flavor of fresh basil bursts into the dish.",
+      "featured": "true",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "This grew very easily for me!",
+          "author": "John Lemon"
+        }
+      ]
+    },
+    {
+      "name": "Carrots",
+      "image": "images/carrots.png",
+      "category": "veggies",
+      "label": "",
+      "price": "10.00",
+      "description": "Get ready for a color of organe you have never seen in super market carrots and a rich sweet flavor to boot!",
+      "comments": [
+        {
+           "rating": 5,
+          "comment": "This grew very easily for me!",
+          "author": "John Lemon"
+        }
+      ]
+    },
+    {
+      "name": "Blueberries",
+      "image": "images/blueberries.png",
+      "category": "fruit",
+      "label": "New",
+      "price": "10.00",
+      "description": "This bush has a longer growing period but once it starts producing berries, it never stops.  Fresh blueberries are loaded with anti-oxidants and are one of the few blue foods.",
+      "comments": [
+        {
+           "rating": 5,
+          "comment": "This grew very easily for me!",
+          "author": "John Lemon"
+        }
+      ]
+    },
+    {
+      "name": "Lettuce",
+      "image": "images/lettuce.png",
+      "category": "veggies",
+      "label": "",
+      "price": "10.00",
+      "description": "Crispy lettuce grows quickly and can be used daily in fresh salads",
+      "comments": [
+        {
+           "rating": 5,
+          "comment": "This grew very easily for me!",
+          "author": "John Lemon"
+        }
+      ]
+    }
+  ]

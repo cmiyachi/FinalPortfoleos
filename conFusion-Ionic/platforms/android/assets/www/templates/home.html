@@ -1,0 +1,39 @@
+<ion-view view-title="Portfoleos">
+  <ion-content>
+    <div class="card">
+        <div class="item item-divider">
+            Create Your Porfolio for the World 
+            <span class="badge badge-assertive">{{dish.label}}</span>
+        </div>
+        <div class="item item-thumbnail-left item-text-wrap">
+            <img ng-src="{{baseURL+dish.image}}" alt="Taiga">
+            <h2>{{dish.name}} 
+            </h2>
+            <p>{{dish.description}}</p>
+        </div>
+    </div>
+      <div class="card">
+          <div class="item item-divider">
+            If you haven't yet....
+            <span class="badge badge-assertive">{{promotion.label}}</span>
+          </div>
+          <div class="item item-thumbnail-left item-text-wrap">
+               <img ng-src="{{baseURL+promotion.image}}" alt="Logo">
+                <h2>{{promotion.name}} 
+                </span></h2>
+                <p>{{promotion.description}}</p>
+          </div>
+      </div>
+      <div class="card">
+          <div class="item item-divider">
+            Meet the Creator
+          </div>
+          <div class="item item-thumbnail-left item-text-wrap">
+               <img ng-src="{{baseURL+leader.image}}" alt="Me">
+                <h2>{{leader.name}}</h2>
+                <h4>{{leader.designation}}</h4>
+                <p>{{leader.description}}</p>
+          </div>
+      </div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,20 @@
+<ion-view view-title="My Portfolio">
+    <ion-nav-buttons side="secondary">
+      <div class="buttons">
+        <button class="button button-icon icon ion-ios-minus-outline"
+          ng-click="toggleDelete()"></button>
+      </div>
+    </ion-nav-buttons>
+  <ion-content>
+    <ion-list show-delete="shouldShowDelete">
+      <ion-item ng-repeat="portfolio in portfolios" href="#/app/menu/{{portfolio._id}}" class="item-thumbnail-left" on-swipe-left="deleteFavorite(portfolio._id)">
+        <img ng-src="{{baseURL+portfolio.image}}">
+          <h2>{{portfolio.name}} </h2>
+        <p>{{portfolio.description}}</p>
+        <ion-delete-button class="ion-minus-circled"
+          ng-click="deleteFavorite(portfolio._id)">
+        </ion-delete-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
